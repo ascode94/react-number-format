@@ -1,6 +1,7 @@
 //@flow
 import PropTypes from 'prop-types';
 import React from 'react';
+import ConvertNumbers from '@smakss/convert-numbers';
 
 import {
   noop,
@@ -807,7 +808,7 @@ class NumberFormat extends React.Component {
 
   onChange(e: SyntheticInputEvent) {
     const el = e.target;
-    let inputValue = el.value;
+    let inputValue = ConvertNumbers(el.value);
     const { state, props } = this;
     const { isAllowed } = props;
     const lastValue = state.value || '';
