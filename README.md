@@ -1,8 +1,7 @@
 [![Actions Status](https://github.com/s-yadav/react-number-format/workflows/CI/badge.svg)](https://github.com/s-yadav/react-number-format/actions)
 
-# react-number-format
-React component to format number in an input or as a text
-
+# react-number-format-persian
+Just a fork of react-number-format with persian number support.
 ### Features
 1. Prefix, suffix and thousand separator.
 2. Custom format pattern.
