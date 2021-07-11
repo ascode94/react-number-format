@@ -1,7 +1,7 @@
 {
   "name": "react-number-format-persian",
   "description": "Fork of react-number-format with persian number support",
-  "version": "4.6.4",
+  "version": "4.6.5",
   "main": "dist/react-number-format.cjs.js",
   "module": "dist/react-number-format.es.js",
   "author": "Alireza Sharifpour",
